@@ -1,0 +1,41 @@
+@media screen and (max-width: 768px){
+    .modern__row{
+        flex-direction: column;
+    }
+    .modern__text{
+        width: 100%;
+    }
+    .modern__image{
+        width: 100%;
+        margin-top: 50px;
+    }
+    .service__card{
+        width: 100%;
+    }
+    .service__row{
+        overflow: hidden;
+        display: -webkit-inline-box;
+    }
+    .about__row{
+        flex-direction: column;
+    }
+    .about__image, .about__text{
+        width: 100%;
+    }
+    .year__row{
+        flex-direction: column;
+    }
+    .year__text, .year__image{
+        width: 100%;
+    }
+    .year__image{
+        margin-top: 50px;
+    }
+    .footer__text, .footer__logo, .footer__follow{
+        width: 100%;
+        text-align: center;
+    }
+    .content{
+        padding: 0 40px;
+    }
+}

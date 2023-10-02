@@ -1,0 +1,17 @@
+@media screen and (max-width: 1024px) {
+    .content{
+        padding: 0 100px;
+    }
+    .header__list{
+        display: none;
+    }
+    .footer__row{
+        flex-wrap: wrap;
+    }
+    .footer__logo{
+        width: 40%;
+    }
+    .footer__text{
+        width: 30%;
+    }
+}

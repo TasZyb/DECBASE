@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+body{
+    padding: 0;
+    margin: 0;
+}
+header{
+    width: 100%;
+    padding: 34px 0;
+}
+.content{
+    width: 100%;
+    padding: 0 268px;
+    box-sizing: border-box;
+}
+.header__row{
+    display: flex;
+    justify-content: space-between;
+}
+.header__list{
+    display: flex;
+    list-style: none;
+}
+.header__row img{
+    height: 47px;
+}
+.header__list li{
+    margin: 0 7px;
+    font-family: 'Open Sans', sans-serif;
+}
+.modern__row{
+    display: flex;
+    justify-content: space-between;
+}
+.modern__text{
+    width: 45%;
+}
+.modern__image{
+    width: 45%;
+    border: 1px solid #B0855B;
+    border-bottom-right-radius: 20%;
+    border-top-left-radius: 20%;
+}
+.modern__image img{
+    width: 100%;
+    border-bottom-right-radius: 20%;
+    border-top-left-radius: 20%;
+    transform: translate(-10px, -10px);
+}
+.service{
+    padding: 50px 0;
+    font-family: 'Open Sans', sans-serif;
+}
+.service__row{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.service__card{
+    background-color: white;
+    border-bottom-right-radius: 60px;
+    border-top-left-radius: 60px;
+    box-shadow: 0px 0px 42px -22px rgba(0, 0, 0, 0.479);
+    width: 30%;
+    padding: 0 10px;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+.brown {
+    background-color: #CAA892;
+    color: white;
+}
+.about{
+    padding: 50px 0;
+}
+.about__row{
+    display: flex;
+    justify-content: space-between;
+}
+.about__text{
+    width: 45%;
+}
+.about__image{
+    width: 45%;
+    border: 1px solid #B0855B;
+    border-bottom-right-radius: 20%;
+    border-top-left-radius: 20%;
+}
+.about__image img{
+    width: 100%;
+    border-bottom-right-radius: 20%;
+    border-top-left-radius: 20%;
+    transform: translate(10px, 10px);
+}
+.year{
+    padding: 50px 0;
+}
+.year__row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.year__text{
+    width: 45%;
+    font-size: 4-px;
+}
+.year__image{
+    width: 45%;
+    border: 1px solid #B0855B;
+    border-bottom-right-radius: 20%;
+    border-top-left-radius: 20%;
+}
+.year__image img{
+    width: 100%;
+    border-bottom-right-radius: 20%;
+    border-top-left-radius: 20%;
+    transform: translate(-10px, -10px);
+
+}
+.year__text img{
+    width: 300px;
+}
+
+.work__row{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 182px;
+    align-items: center;
+}
+.work__card{
+    width: 18%;
+    height: 100%;
+    background-color: white;
+    border-bottom-right-radius: 60px;
+    border-top-left-radius: 60px;
+    box-shadow: 0px 0px 42px -22px rgba(0, 0, 0, 0.479);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.line{
+    width: 9%;
+    display: flex;
+    height: 100%;
+    transform: translateY(50%);
+}
+.center-line{
+    width: 1px;
+    height: 50%;
+    background-color: blue;
+}
+.left-line{
+    content: "";
+    position: relative;
+    width: 50%;
+    height: 100%;
+    border-top: 1px solid blue;
+
+}
+.right-line{
+    content: "";
+    position: relative;
+    width: 50%;
+    height: 50%;
+    border-bottom: 1px solid blue;
+
+}
+.card-bottom{
+    transform: translateY(50%);
+}
+.subscribe{
+    padding: 150px 0;
+    text-align: center;
+}
+.subscribe h1{
+    font-family: 'Poppins', sans-serif;
+    font-size: 2em;
+}
+.subscribe hr{
+    width: 30%;
+}
+.subscribe p{
+    font-family: 'Open Sans', sans-serif;
+    color: #646464;
+    /* font-size: 1.3em; */
+    width: 50%;
+    margin: 40px auto;
+}
+.subscribe__row{
+    display: flex;
+    width: 50%;
+    margin: 40px auto;
+    height: 50px;
+}
+.subscribe__row input{
+    color: #646464;
+    width: 70%;
+    height: 100%;
+    border-top-left-radius: 20px;
+    border: 0;
+    box-sizing: border-box;
+    background-color: #EEEEEE;
+}
+.subscribe__row button{
+    color: #646464;
+    width: 30%;
+    height: 100%;
+    border: 0;
+    border-bottom-right-radius: 20px;
+    box-sizing: border-box;
+    background-color: #37806B;
+    color: white;
+}
+.footer__row{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.footer__logo{
+    width: 25%;
+}
+
+
+/* @import url("./1024style.css") */
